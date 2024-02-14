@@ -1,0 +1,6 @@
+[
+    {
+        "name": "maysun-app",
+        "imageUri": "public.ecr.aws/q9r3s5p8/maysun-app:latest"
+    }
+]
