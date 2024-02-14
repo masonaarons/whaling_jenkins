@@ -21,7 +21,7 @@ pipeline {
 
     stage('Push') {
       steps {
-        sh 'docker push -u masonaarons/whaling-jenkins'
+        sh 'docker push masonaarons/whaling-jenkins'
       }
     }
 
