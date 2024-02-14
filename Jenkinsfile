@@ -9,7 +9,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'masonaarons '
+        sh 'docker build -t masonaarons/whaling_example'
       }
     }
 
